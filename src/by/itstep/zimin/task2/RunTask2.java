@@ -24,7 +24,7 @@ public class RunTask2 {
         BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream("1.txt"));
 
 
-        BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("2.txt"));
+        BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("Результат/2.txt"));
         byte[] arrayByte = inputStream.readAllBytes();
         System.out.println(new String(arrayByte,"UTF-8"));
         String str = new String(arrayByte).replace("Жигули", "BMW") .replace("Мерседес", "Рено");
