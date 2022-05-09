@@ -1,4 +1,4 @@
-package by.itstep.zimin;
+package by.itstep.zimin.task1;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;

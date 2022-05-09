@@ -1,4 +1,4 @@
-package by.itstep.zimin;
+package by.itstep.zimin.task1;
 
 import java.io.File;
 import java.io.IOException;
